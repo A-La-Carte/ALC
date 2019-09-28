@@ -149,8 +149,3 @@ gulp.task('watch-all', gulp.series('watch-client', 'watch-server'));
 gulp.task('all', gulp.series(['watch-all']));
 
 gulp.task('scripts', gulp.series(['build-server', 'start-watching-server']));
-
-"scripts": {
-  "start": "node app",
-  "postinstall": "gulp default"
-}
