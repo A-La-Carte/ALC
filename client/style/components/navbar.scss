@@ -1,9 +1,13 @@
 
-$navbar-height: 50px;
+$navbar-height: 80px;
+
+@keyframes hover-background {
+  from {background-color: transparent;}
+  to {background-color: $alc-grey;}
+}
 
 .alc-navbar {
   align-items: center;
-  background-color: $alc-grey;
   display: flex;
   justify-content: space-between;
   padding: 0 $page-margin;
@@ -12,18 +16,35 @@ $navbar-height: 50px;
   &-main {
     color: $alc-white;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
   }
 
   &-right, &-left {
     display: flex;
     justify-content: center;
+    height: 100%;
   }
 
   &-link {
     color: $alc-white;
     font-weight: bold;
-    font-size: 16px;
-    margin-left: 16px;
+    font-size: 18px;
+    height: 100%;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0 16px;
+
+    &:hover {
+      animation-name: hover-background;
+      animation-duration: 1s;
+      background-color: $alc-grey;
+      cursor: pointer;
+    }
   }
 }
