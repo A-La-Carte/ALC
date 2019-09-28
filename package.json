@@ -18,7 +18,12 @@
     "prettier": "prettier {server,common,tests,client}/**/*.{js,jsx,ts,tsx}",
     "profile": "webpack --profile --json > stats.json",
     "storybook": "start-storybook -p 9001 -s client -c .storybook",
-    "adjust-linux-watch-limit": "echo fs.inotify.max_user_watches=524288 | tee -a /etc/sysctl.conf && sysctl -p"
+    "adjust-linux-watch-limit": "echo fs.inotify.max_user_watches=524288 | tee -a /etc/sysctl.conf && sysctl -p",
+    "start": "node dist/app/server/index.js"
+  },
+  "engines": {
+    "node": "12.x",
+    "npm": "6.x"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
