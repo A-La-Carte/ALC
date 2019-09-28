@@ -21,6 +21,10 @@
     "adjust-linux-watch-limit": "echo fs.inotify.max_user_watches=524288 | tee -a /etc/sysctl.conf && sysctl -p",
     "start": "node dist/app/server/index.js"
   },
+  "engines": {
+    "node": "12.10.0",
+    "npm": "6.x"
+  },
   "devDependencies": {
     "@babel/core": "^7.4.4",
     "@babel/plugin-proposal-class-properties": "^7.4.4",
