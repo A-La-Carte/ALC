@@ -13,14 +13,24 @@ $navbar-height: 80px;
   padding: 0 $page-margin;
   height: $navbar-height;
 
+  a {
+    color: white;
+
+    &:hover {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
   &-main {
     color: $alc-white;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 30px;
 
     align-items: center;
     display: flex;
     justify-content: center;
+    font-family: 'Mansalva', cursive;
   }
 
   &-right, &-left {

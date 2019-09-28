@@ -4,8 +4,10 @@
 @import './components/navbar';
 @import './components/page_container';
 @import './components/home_page';
+@import './components/search_result';
 
 body {
+  background-color: black;
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
 }

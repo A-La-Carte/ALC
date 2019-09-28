@@ -9,16 +9,22 @@ import {
 import HomePage from './HomePage';
 import SamplePage from './SamplePage';
 import CreatePage from './CreatePage';
+import SearchResultsPage from './SearchResultsPage';
+import RecipesPage from './RecipesPage';
+import RestaurantsPage from './RestaurantsPage';
 
 export const routes: RouteProps[] = [
   { exact: true, path: '/', component: HomePage },
   { path: '/sample', component: SamplePage },
+  { path: '/search', component: SearchResultsPage },
+  { path: '/recipes', component: RecipesPage },
+  { path: '/restaurants', component: RestaurantsPage },
   { path: '/create', component: CreatePage },
   { path: '/index', component: HomePage },
   { path: '*', component: HomePage },
 ];
 
-interface Props extends RouteComponentProps<any> {}
+interface Props extends RouteComponentProps<any> { }
 
 class Routes extends React.Component<Props> {
   render() {
