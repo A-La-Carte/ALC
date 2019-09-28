@@ -5,5 +5,5 @@ import { faCheckSquare } from '@fortawesome/free-regular-svg-icons';
 
 // This imports all the FontAwesome SVG information that we need to use
 // If you want to use an additional icon, you must add it to the imports and
-// to the `library.add` call below
+// to the `library.add` call below 
 library.add(faArrowLeft, faCheckSquare, faFacebook);
