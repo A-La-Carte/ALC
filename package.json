@@ -22,7 +22,7 @@
     "start": "node dist/app/server/index.js"
   },
   "engines": {
-    "node": "12.10.0",
+    "node": "12.x",
     "npm": "6.x"
   },
   "devDependencies": {
