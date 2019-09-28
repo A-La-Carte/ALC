@@ -1,0 +1,10 @@
+.alc-page {
+
+  &-body {
+    padding: 0 $page-margin;
+
+    &.no-padding {
+      padding: 0 0;
+    }
+  }
+}

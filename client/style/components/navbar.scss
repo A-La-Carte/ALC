@@ -1,0 +1,29 @@
+
+$navbar-height: 50px;
+
+.alc-navbar {
+  align-items: center;
+  background-color: $alc-grey;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 $page-margin;
+  height: $navbar-height;
+
+  &-main {
+    color: $alc-white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  &-right, &-left {
+    display: flex;
+    justify-content: center;
+  }
+
+  &-link {
+    color: $alc-white;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 16px;
+  }
+}
