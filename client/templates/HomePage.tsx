@@ -25,6 +25,7 @@ export default class HomePage extends React.PureComponent<Props, State> {
               onSubmit={this.handleSearchSubmitted}
               placeholder="Braised pork, glazed salmon, mashed potatoes..."
               value={this.state.recipeQuery} />
+            <button className="home-page-search-button" type="submit">Search</button>
           </form>
         </div>
       </PageContainer>

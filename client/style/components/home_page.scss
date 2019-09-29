@@ -22,14 +22,26 @@
   form {
     width: 80%;
     max-width: 700px;
+    position: relative;
   }
 
   input {
     width: 100%;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 50px;
     outline: none;
     border: 1px solid transparent;
     font-size: 20px;
+  }
+
+  &-button {
+    position: absolute;
+    bottom: 13px;
+    right: 15px;
+    background: $alc-primary;
+    border: none;
+    padding: 8px 20px;
+    font-size: 20px;
+    border-radius: 26px;
   }
 }
