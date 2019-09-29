@@ -11,7 +11,7 @@ export default class RestaurantsPage extends React.PureComponent<Props, State> {
   render() {
     return (
       <PageContainer>
-        <div className="search-results-section">
+        <div className="search-results-section row">
           <SearchResult
             restaurant="Bestia"
             title="Assa Bucco"

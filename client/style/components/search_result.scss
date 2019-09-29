@@ -1,6 +1,9 @@
 .search-result {
   display: block;
-  width: 50%;
+
+  &-elem {
+    padding: 0;
+  }
 
   &-container {
     background-size: cover;
