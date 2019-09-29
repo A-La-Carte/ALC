@@ -1,11 +1,6 @@
 
 $navbar-height: 80px;
 
-@keyframes hover-background {
-  from {background-color: transparent;}
-  to {background-color: $alc-grey;}
-}
-
 .alc-navbar {
   align-items: center;
   display: flex;
@@ -19,6 +14,7 @@ $navbar-height: 80px;
     &:hover {
       color: black;
       text-decoration: none;
+      box-shadow: 0 3px 0 #000;
     }
   }
 
@@ -28,6 +24,8 @@ $navbar-height: 80px;
 
       &:hover {
         color: white;
+        text-decoration: none;
+        box-shadow: 0 3px 0 white;
       }
     }
   }
@@ -41,6 +39,15 @@ $navbar-height: 80px;
     display: flex;
     justify-content: center;
     font-family: 'Mansalva', cursive;
+
+    &-logo {
+      width: 30px;
+      height: 30px;
+      border-radius: 25px;
+      background-color: $alc-secondary;
+      border: 5px solid $alc-primary;
+      margin-right: 16px;
+    }
   }
 
   &-right, &-left {
@@ -52,19 +59,20 @@ $navbar-height: 80px;
   &-link {
     color: $alc-white;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 22px;
     height: 100%;
 
     align-items: center;
     display: flex;
     justify-content: center;
     padding: 0 16px;
+    font-family: 'Mansalva', cursive;
 
-    &:hover {
-      animation-name: hover-background;
-      animation-duration: 1s;
-      background-color: $alc-grey;
-      cursor: pointer;
+    &.selected {
+      a {
+        text-decoration: none;
+        box-shadow: 0 3px 0 black;
+      }
     }
   }
 }

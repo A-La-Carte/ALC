@@ -36,12 +36,14 @@
 
   &-button {
     position: absolute;
-    bottom: 13px;
+    bottom: 10px;
     right: 15px;
     background: $alc-primary;
+    color: $alc-secondary;
     border: none;
-    padding: 8px 20px;
-    font-size: 20px;
+    padding: 8px 24px;
+    font-size: 24px;
     border-radius: 26px;
+    font-family: 'Mansalva', cursive;
   }
 }

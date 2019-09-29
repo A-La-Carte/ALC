@@ -14,7 +14,7 @@ interface State { }
 export default class RecipesPage extends React.PureComponent<Props, State> {
   render() {
     return (
-      <PageContainer>
+      <PageContainer selectedRoute="recipes">
         <div className="search-results-section row">
           {recipesData.map(recipe =>
             <SearchResult

@@ -10,7 +10,7 @@ interface State { }
 export default class RestaurantsPage extends React.PureComponent<Props, State> {
   render() {
     return (
-      <PageContainer>
+      <PageContainer selectedRoute="restaurants">
         <div className="search-results-section row">
           <SearchResult
             href="/restaurants/1"
