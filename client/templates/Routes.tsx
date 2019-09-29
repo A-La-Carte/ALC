@@ -12,12 +12,14 @@ import CreatePage from './CreatePage';
 import SearchResultsPage from './SearchResultsPage';
 import RecipesPage from './RecipesPage';
 import RestaurantsPage from './RestaurantsPage';
+import RestaurantHomePage from './RestaurantHomePage';
 
 export const routes: RouteProps[] = [
   { exact: true, path: '/', component: HomePage },
   { path: '/sample', component: SamplePage },
   { path: '/search', component: SearchResultsPage },
   { path: '/recipes', component: RecipesPage },
+  { path: '/restaurants/:restaurantId', component: RestaurantHomePage },
   { path: '/restaurants', component: RestaurantsPage },
   { path: '/create', component: CreatePage },
   { path: '/index', component: HomePage },

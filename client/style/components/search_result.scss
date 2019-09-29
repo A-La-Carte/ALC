@@ -13,19 +13,19 @@
     height: 380px;
     overflow: hidden;
     position: relative;
+
+    &:hover > .search-result-overlay {
+      transition: all .25s;
+      box-shadow: inset 0 0 0 15px white;
+      background: rgba(0, 0, 0, 0.5);
+    }
   }
 
   &-overlay {
     transition: all .25s;
-    box-shadow: inset 0 0 0 0 black;
+    box-shadow: inset 0 0 0 0 white;
     background: rgba(0, 0, 0, 0.2);
     min-height: 100%;
-
-    &:hover {
-      transition: all .25s;
-      box-shadow: inset 0 0 0 15px black;
-      background: rgba(0, 0, 0, 0.5);
-    }
   }
 
   &-info {

@@ -14,11 +14,21 @@ $navbar-height: 80px;
   height: $navbar-height;
 
   a {
-    color: white;
+    color: black;
 
     &:hover {
-      color: white;
+      color: black;
       text-decoration: none;
+    }
+  }
+
+  &.white {
+    a {
+      color: white;
+
+      &:hover {
+        color: white;
+      }
     }
   }
 

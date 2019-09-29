@@ -13,6 +13,7 @@ export default class RestaurantsPage extends React.PureComponent<Props, State> {
       <PageContainer>
         <div className="search-results-section row">
           <SearchResult
+            href="/restaurants/1"
             restaurant="Bestia"
             title="Assa Bucco"
             img="https://bestiala.com/wp-content/uploads/sites/4/2017/01/slider1.jpg" />

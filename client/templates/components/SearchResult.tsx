@@ -4,6 +4,7 @@ interface Props {
   img: string,
   title: string,
   restaurant: string,
+  href?: string,
 }
 interface State { }
 
@@ -11,7 +12,7 @@ export default class SearchResult extends React.PureComponent<Props, State> {
   render() {
     return (
       <div className="search-result-elem col-md-6 col-sm-12 col-xs-12">
-        <a className="search-result" href="#">
+        <a className="search-result" href={this.props.href || '#'}>
           <div className="search-result-container" style={{ backgroundImage: `url(${this.props.img})` }}>
             <div className="search-result-overlay"></div>
             <div className="search-result-info">
