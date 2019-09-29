@@ -18,6 +18,7 @@ export default class RecipesPage extends React.PureComponent<Props, State> {
         <div className="search-results-section row">
           {recipesData.map(recipe =>
             <SearchResult
+              href={`/recipes/${recipe.id}`}
               key={recipe.id}
               restaurant={restaurantLookup[recipe.restaurant_id].name}
               title={recipe.name}

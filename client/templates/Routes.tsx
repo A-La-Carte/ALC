@@ -13,11 +13,13 @@ import SearchResultsPage from './SearchResultsPage';
 import RecipesPage from './RecipesPage';
 import RestaurantsPage from './RestaurantsPage';
 import RestaurantHomePage from './RestaurantHomePage';
+import RecipeHomePage from './RecipeHomePage';
 
 export const routes: RouteProps[] = [
   { exact: true, path: '/', component: HomePage },
   { path: '/sample', component: SamplePage },
   { path: '/search', component: SearchResultsPage },
+  { path: '/recipes/:recipeId', component: RecipeHomePage },
   { path: '/recipes', component: RecipesPage },
   { path: '/restaurants/:restaurantId', component: RestaurantHomePage },
   { path: '/restaurants', component: RestaurantsPage },

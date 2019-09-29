@@ -5,7 +5,7 @@
     "restaurant_id": 1,
     "description": "It looks so elegant that everyone thinks I spent a lot of time on this roast. But it's actually so easy! The biggest challenge is to remember to order the crown roast from the meat department ahead of time. —Betty Claycomb, Alverton, Pennsylvania",
     "main_image": "https://www.tasteofhome.com/wp-content/uploads/2018/06/Crown-Roast-of-Pork-with-Mushroom-Stuffing_EXPS_THD16_7763_07B_22_2b.jpg",
-    "video": "https://www.youtube.com/watch?v=LUmgpwYuSSc",
+    "yt_video_id": "LUmgpwYuSSc",
     "ingredients": [
       "Pork loin crown roast",
       "Seasoned salt",
@@ -24,7 +24,7 @@
     "restaurant_id": 1,
     "description": "I love to serve this family-favorite tenderloin—maybe because of the compliments that come with it! When the weather warms up, we grill it instead. —Megan Riofski, Frankfort, Illinois",
     "main_image": "https://www.tasteofhome.com/wp-content/uploads/2017/10/Bacon-Wrapped-Pesto-Pork-Tenderloin_EXPS_SDFM17_198538_B10_04_5b.jpg",
-    "video": "https://www.youtube.com/watch?v=LUmgpwYuSSc",
+    "yt_video_id": "LUmgpwYuSSc",
     "ingredients": [
       "Bacon strips",
       "Prepared pesto",
@@ -44,7 +44,7 @@
     "restaurant_id": 2,
     "description": "Nothing says “special occasion” like a perfectly seasoned prime rib. Savory, succulent, tender, it’s the perfect choice when you want to share something truly divine. —Tonya Burkhard, Palm Coast, Florida",
     "main_image": "https://www.tasteofhome.com/wp-content/uploads/2018/05/exps162771_THCA153054C11_25_3b.jpg",
-    "video": "https://www.youtube.com/watch?v=LUmgpwYuSSc",
+    "yt_video_id": "LUmgpwYuSSc",
     "ingredients": [
       "Beef rib roast",
       "Garlic cloves",
@@ -65,7 +65,7 @@
     "restaurant_id": 2,
     "description": "When serving this entree as part of a buffet, try using chafing dish to keep it warm. —Taste of Home Test Kitchen",
     "main_image": "https://www.tasteofhome.com/wp-content/uploads/2018/05/exps27108_BHR143425C05_16_2b.jpg",
-    "video": "https://www.youtube.com/watch?v=LUmgpwYuSSc",
+    "yt_video_id": "LUmgpwYuSSc",
     "ingredients": [
       "Orange Juice",
       "Duck Breast",
