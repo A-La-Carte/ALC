@@ -1,3 +1,81 @@
 [
-
+  {
+    "id": 1,
+    "name": "Crown Roast of Pork",
+    "restaurant_id": 1,
+    "description": "It looks so elegant that everyone thinks I spent a lot of time on this roast. But it's actually so easy! The biggest challenge is to remember to order the crown roast from the meat department ahead of time. —Betty Claycomb, Alverton, Pennsylvania",
+    "main_image": "https://www.tasteofhome.com/wp-content/uploads/2018/06/Crown-Roast-of-Pork-with-Mushroom-Stuffing_EXPS_THD16_7763_07B_22_2b.jpg",
+    "video": "https://www.youtube.com/watch?v=LUmgpwYuSSc",
+    "ingredients": [
+      "Pork loin crown roast",
+      "Seasoned salt",
+      "Diced celery",
+      "Cranberries"
+    ],
+    "instructions": [
+      "Preheat oven to 350°. Place roast, rib ends up, in a shallow roasting pan; sprinkle with seasoned salt. Cover rib ends with foil. Bake, uncovered, for 1-1/4 hours.",
+      "Meanwhile, melt butter over medium-high heat. Add mushrooms and celery; saute until tender. Stir in bread cubes, salt and pepper. Spoon around roast. Brush sides of roast with preserves. Bake until a thermometer inserted into meat between ribs reads 145°, 45-60 minutes. Remove foil; let meat stand 10 minutes before slicing.",
+      "If desired, thread cranberries on a 20-in. string or thread. Transfer roast to a serving platter. Loop cranberry string in and out of rib ends. Slice between ribs to serve."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Bacon-Wrapped Pesto Pork Tenderloin",
+    "restaurant_id": 1,
+    "description": "I love to serve this family-favorite tenderloin—maybe because of the compliments that come with it! When the weather warms up, we grill it instead. —Megan Riofski, Frankfort, Illinois",
+    "main_image": "https://www.tasteofhome.com/wp-content/uploads/2017/10/Bacon-Wrapped-Pesto-Pork-Tenderloin_EXPS_SDFM17_198538_B10_04_5b.jpg",
+    "video": "https://www.youtube.com/watch?v=LUmgpwYuSSc",
+    "ingredients": [
+      "Bacon strips",
+      "Prepared pesto",
+      "Italian cheese blend",
+      "Pork tenderloin"
+    ],
+    "instructions": [
+      "Preheat oven to 425°. Arrange bacon strips lengthwise in a foil-lined 15x10x1-in. pan, overlapping slightly.",
+      "Cut tenderloin lengthwise through the center to within 1/2 in. of bottom. Open tenderloin flat; pound with a meat mallet to 1/2-in. thickness. Place tenderloin on center of bacon, perpendicular to strips.",
+      "Sprinkle pepper over pork. Spread with pesto; layer with cheese and spinach. Close tenderloin; wrap with bacon, overlapping ends. Tie with kitchen string at 3-in. intervals. Secure ends with toothpicks.",
+      "In a 12-in. skillet, brown roast on all sides, about 8 minutes. Return to baking pan; roast in oven until a thermometer inserted in pork reads 145°, 17-20 minutes. Remove string and toothpicks; let stand 5 minutes before slicing."
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Prime Rib with Fresh Herb Sauce",
+    "restaurant_id": 2,
+    "description": "Nothing says “special occasion” like a perfectly seasoned prime rib. Savory, succulent, tender, it’s the perfect choice when you want to share something truly divine. —Tonya Burkhard, Palm Coast, Florida",
+    "main_image": "https://www.tasteofhome.com/wp-content/uploads/2018/05/exps162771_THCA153054C11_25_3b.jpg",
+    "video": "https://www.youtube.com/watch?v=LUmgpwYuSSc",
+    "ingredients": [
+      "Beef rib roast",
+      "Garlic cloves",
+      "Dry red wine"
+    ],
+    "instructions": [
+      "Preheat oven to 450°. Place roast in a shallow roasting pan, fat side up; rub with salt and pepper. Add 1 cup water, onions, garlic and herbs to roasting pan. Roast 15 minutes.",
+      "Reduce oven setting to 325°. Roast 3 to 3-1/2 hours longer or until meat reaches desired doneness (for medium-rare, a thermometer should read 135°; medium, 140°; medium-well, 145°), adding 1 cup water every hour.",
+      "For sauce, in a large saucepan, heat butter over medium-high heat. Add shallots; cook and stir 5-6 minutes or until tender. Add garlic and herbs; cook 1 minute longer. Stir in flour, pepper and salt until blended. Gradually stir in 1-1/2 cups stock. Remove from heat.",
+      "Remove roast to a serving platter; tent with foil. Let stand 15 minutes before carving. Meanwhile, strain any pan juices through a sieve into a measuring cup; discard onions and herbs. Skim fat from pan juices. If necessary, add additional stock to pan juices to measure 1 cup. Add to shallot mixture.",
+      "Place roasting pan over 2 burners; add wine. Bring to a boil; cook 2-3 minutes, stirring to loosen browned bits from pan. Add to sauce. Bring to a boil, stirring occasionally; cook until mixture is reduced to about 1-1/2 cups, 10-15 minutes.",
+      "Stir in vinegar; strain, discarding shallots and herbs. Serve with roast and, if desired, garnish with thyme."
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Duck Breast with Apricot Chutney",
+    "restaurant_id": 2,
+    "description": "When serving this entree as part of a buffet, try using chafing dish to keep it warm. —Taste of Home Test Kitchen",
+    "main_image": "https://www.tasteofhome.com/wp-content/uploads/2018/05/exps27108_BHR143425C05_16_2b.jpg",
+    "video": "https://www.youtube.com/watch?v=LUmgpwYuSSc",
+    "ingredients": [
+      "Orange Juice",
+      "Duck Breast",
+      "Marsala Wine"
+    ],
+    "instructions": [
+      "For chutney, in a saucepan, combine orange juice and sugar. Cook and stir over medium heat until sugar is dissolved, about 3 minutes. Add the apricots, cherries, raisins, ginger, coriander, cumin, salt, pepper and cloves. Bring to a boil. Reduce heat to low; cook until apricots are tender, about 10 minutes. Transfer to a bowl; stir in lemon juice. Let stand at room temperature for at least 2 hours.",
+      "Season both sides of duck with salt and pepper. In a large skillet, saute duck, skin side down, in oil until skin is browned; turn and cook for 1 minute. Set aside 1 tablespoon drippings.",
+      "Place duck on a greased rack in a shallow roasting pan. Bake at 350° until meat reaches desired doneness (for medium, a thermometer should read 165°; well-done, 180°), 30-35 minutes.",
+      "For orange sauce, saute garlic in reserved drippings for 1 minute. Add wine; bring to a boil. Cook and stir until reduced by half. In a bowl, combine the cornstarch, orange juice, broth and orange zest until blended. Stir into wine mixture. Bring to a boil. Reduce heat; simmer, uncovered, for 5 minutes. Remove from the heat. Add butter and basil; whisk until smooth. Remove skin from duck if desired before slicing. Serve with orange sauce and chutney."
+    ]
+  }
 ]
