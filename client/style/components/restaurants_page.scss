@@ -1,0 +1,73 @@
+.restaurant-home-title {
+  font-size: 170%;
+}
+
+.restaurant-home-img {
+  margin: 0 auto;
+  display: block;
+  width: 85%;
+}
+
+.reservation-button {
+  padding-top: 2%;
+}
+
+.restaurant-bio-list {
+  font-size:70%
+}
+
+.recipe-text-header {
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  font-size: 150%;
+}
+
+.restaurant-section-margin {
+  margin-top:1%;
+}
+
+.chef-headshot {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.chef-name {
+  font-size: 80%;
+  text-align: center;
+  padding-top:8%;
+}
+
+.chef-text-header {
+  padding-bottom: 6%;
+  text-align: center;
+  padding-top: 3%;
+  font-size: 150%;
+}
+
+.sister-restaurant-block {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 3px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.sister-restaurant-info-title {
+  color: white;
+  font-family: "GraphikSemibold", sans-serif;
+  text-transform: initial;
+  padding: 70px 60px;
+
+  position: absolute;
+  bottom: 0;
+
+  font-size: 120%;
+  line-height: 30px;
+  letter-spacing: 1px;
+  font-weight: 100;
+  text-shadow: 0 0 5px black;
+}
