@@ -46,28 +46,51 @@
   font-size: 150%;
 }
 
-.sister-restaurant-block {
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  margin: 3px;
-  height: 200px;
-  overflow: hidden;
-  position: relative;
-}
+.sister-restaurant {
+  display: block;
 
-.sister-restaurant-info-title {
-  color: white;
-  font-family: "GraphikSemibold", sans-serif;
-  text-transform: initial;
-  padding: 70px 60px;
+  &-elem {
+    padding: 0;
+  }
 
-  position: absolute;
-  bottom: 0;
+  &-container {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 3px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
 
-  font-size: 120%;
-  line-height: 30px;
-  letter-spacing: 1px;
-  font-weight: 100;
-  text-shadow: 0 0 5px black;
+    &:hover > .sister-restaurant-overlay {
+      transition: all .25s;
+      background: rgba(0, 0, 0, 0.6);
+    }
+  }
+
+  &-overlay {
+    transition: all .25s;
+    background: rgba(0, 0, 0, 0);
+    min-height: 100%;
+  }
+
+  &-info {
+    color: white;
+    font-family: "GraphikSemibold", sans-serif;
+    text-transform: initial;
+    padding: 70px 60px;
+
+    position: absolute;
+    bottom: 0;
+
+    &-title {
+      font-size: 120%;
+      line-height: 30px;
+      letter-spacing: 1px;
+      font-weight: 100;
+      text-shadow: 0 0 5px black;
+      text-align: center;
+    }
+    
+  }
 }

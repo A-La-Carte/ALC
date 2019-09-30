@@ -2,16 +2,22 @@ import * as React from 'react';
 
 interface Props {
   restaurant: string,
+  youtube_link: string,
+  street: string,
+  city_state: string,
+  phone_number: string,
+  description: string,
+  reservation_link: string
 }
 interface State { }
 
 export default class RestaurantTopSection extends React.PureComponent<Props, State> {
   render() {
     return (
-      <div className="row">
+      <div className="row" style={{ height: 400 }}>
 
         <div className="col-md-8">
-          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/XMWgzIGs3zw" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          <iframe width="100%" height="100%" src={this.props.youtube_link} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
 
         <div className="col-md-4">
@@ -20,19 +26,18 @@ export default class RestaurantTopSection extends React.PureComponent<Props, Sta
           </div>
 
           <div className="reservation-button">
-            <button type="button" className="btn btn-outline-secondary btn-sm">Reserve on Resy</button>
+            <a type="button" className="btn btn-outline-secondary btn-sm" href={this.props.reservation_link} target="_blank">Reserve on Resy</a>
           </div>
 
-          <div className="col-md-6">
+          <div className="col-md-12">
             <ul className="list-group list-group-flush restaurant-bio-list">
-              <li className="list-group-item">20 Hudson Yards <br /> Fifth Floor <br /> New York, NY 10001</li>
-              <li className="list-group-item">646.517.2699</li>
-              <li className="list-group-item">Lunch Daily <br /> 11:30 am – 3:00 pm</li>
-              <li className="list-group-item">Dinner Sunday – Thursday <br /> 5:00 pm – 10:00 pm <br /> Friday + Saturday <br /> 5:00 pm – 11:00 pm</li>
+              <li className="list-group-item">{this.props.description}</li>
+              <li className="list-group-item" style={{ textAlign: "center" }}>{this.props.phone_number}</li>
+              <li className="list-group-item" style={{ textAlign: "center" }}>{this.props.street} <br /> {this.props.city_state} </li>
             </ul>
           </div>
         </div>
-      </div>
+      </div >
     );
   }
 }
