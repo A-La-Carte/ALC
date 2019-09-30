@@ -1,0 +1,20 @@
+[
+  {
+    "id": 100,
+    "name": "Whiskey Sour Party Punch",
+    "restaurant_id": 1,
+    "description": "Mix up a big batch of this sweet and sour whiskey punch for your next party — your guests will thank you.",
+    "main_image": "https://images.britcdn.com/wp-content/uploads/2017/06/whiskey-sour-party-punch-645x857.jpg?w=1000&auto=format&q=50",
+    "yt_video_id": "LUmgpwYuSSc",
+    "ingredients": [
+      "Orange Juice",
+      "Bourbon",
+      "Triple Sec",
+      "Sprite"
+    ],
+    "instructions": [
+      "In a large bowl or pitcher, combine all ingredients except the Sprite. Stir well.",
+      "Chill and add Sprite before serving."
+    ]
+  }
+]

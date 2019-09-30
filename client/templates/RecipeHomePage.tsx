@@ -3,8 +3,11 @@ import _ from 'underscore';
 import { RouteComponentProps } from 'react-router';
 import PageContainer from './components/PageContainer'
 import { RecipeType, RestaurantType } from './types';
-import recipesData from '../../data/recipes.json';
+import foodRecipesData from '../../data/recipes.json';
+import drinkRecipesData from '../../data/drinks.json';
 import restaurantData from '../../data/restaurants.json'
+
+const recipesData = foodRecipesData.concat(drinkRecipesData);
 
 const recipeLookup = _.indexBy(recipesData, 'id');
 const restaurantLookup = _.indexBy(restaurantData, 'id');

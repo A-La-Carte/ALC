@@ -14,6 +14,7 @@ import RecipesPage from './RecipesPage';
 import RestaurantsPage from './RestaurantsPage';
 import RestaurantHomePage from './RestaurantHomePage';
 import RecipeHomePage from './RecipeHomePage';
+import CocktailsPage from './CocktailsPage';
 
 export const routes: RouteProps[] = [
   { exact: true, path: '/', component: HomePage },
@@ -21,6 +22,7 @@ export const routes: RouteProps[] = [
   { path: '/search', component: SearchResultsPage },
   { path: '/recipes/:recipeId', component: RecipeHomePage },
   { path: '/recipes', component: RecipesPage },
+  { path: '/cocktails', component: CocktailsPage },
   { path: '/restaurants/:restaurantId', component: RestaurantHomePage },
   { path: '/restaurants', component: RestaurantsPage },
   { path: '/create', component: CreatePage },

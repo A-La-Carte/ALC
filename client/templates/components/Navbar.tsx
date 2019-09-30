@@ -23,6 +23,7 @@ export default class Navbar extends React.PureComponent<Props, State> {
         <div className="alc-navbar-right">
           <div className={cx('alc-navbar-link', { selected: selectedRoute === 'restaurants' })}><a href="/restaurants">Restaurants</a></div>
           <div className={cx('alc-navbar-link', { selected: selectedRoute === 'recipes' })}><a href="/recipes">Recipes</a></div>
+          <div className={cx('alc-navbar-link', { selected: selectedRoute === 'drinks' })}><a href="/cocktails">Cocktails</a></div>
         </div>
       </div >
     );
