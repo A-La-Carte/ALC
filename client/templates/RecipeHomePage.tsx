@@ -98,7 +98,7 @@ export default class RestaurantHomePage extends React.PureComponent<Props, State
         </div>
         <div className="recipe-page-recipe-instructions">
           {recipe.instructions.map((step, index) =>
-            <div className="recipe-page-recipe-instructions-step">
+            <div className="recipe-page-recipe-instructions-step" key={step}>
               <div className="recipe-page-recipe-instructions-step-index">
                 {index + 1}
               </div>

@@ -16,5 +16,45 @@
       "In a large bowl or pitcher, combine all ingredients except the Sprite. Stir well.",
       "Chill and add Sprite before serving."
     ]
+  },
+  {
+    "id": 101,
+    "name": "Zombia Panda",
+    "restaurant_id": 3,
+    "description": "In his Zombie Panda, he channels the playful and elaborate cocktail presentations that have become signature to The Aviary’s bar program, but builds on familiar flavors. A twist on the Pisco Sour, the drink is a force-carbonated mixture of pisco, citrus and lychee syrup, served over a bed of raspberry-flavored ice marbles. “It’s not intimidating, but its memorable,” say Melton.",
+    "main_image": "https://assets.punchdrink.com/wp-content/uploads/2018/03/Article-Future-of-Drink-Micah-Melton-The-Aviary-NYC-Chicago-Cocktail-Recipe-1000x617.jpg",
+    "yt_video_id": "LUmgpwYuSSc",
+    "ingredients": [
+      "Lychee Syrup",
+      "Lemon Juice",
+      "Porton",
+      "Resberry Marbles"
+    ],
+    "instructions": [
+      "Combine all ingredients, except the raspberry marbles, in a mixing tin and shake with ice.",
+      "Strain through a chinois into a iSi siphon.",
+      "Fill a 6- to 8-ounce rocks glass with the raspberry marbles.",
+      "Top with the carbonated mixture from the iSi siphon."
+    ]
+  },
+  {
+    "id": 102,
+    "name": "Bitter",
+    "restaurant_id": 3,
+    "description": "a cocktail called Bitter first appeared on the Aviary's menu over the summer. Being in the slipstream of a world-renowned chef puts Schoettler in the position to source rare and otherwise hard-to-get ingredients; likewise, the talented industrial designer Martin Kastner of crucial detail is just a phone call away.",
+    "main_image": "https://drinks.seriouseats.com/images/20111015-175186-Aviary-Bitter1.jpg",
+    "yt_video_id": "LUmgpwYuSSc",
+    "ingredients": [
+      "Pierre Ferrand Cognac",
+      "Laird's Bonded Apple Brandy",
+      "Bonal",
+      "Amaro Nonino"
+    ],
+    "instructions": [
+      "To make the barrel stave coaster, cut a roughly 6-inch-long section from the widest part of the barrel stave using a saw. Using a hole saw bit the same diameter as an Old Fashioned glass, drill a 1/2-inch-deep circular channel into the charred side of the barrel stave. The Old Fashioned glass should rest securely upturned in the circular channel.",
+      "To prepare the cocktail, combine cognac, apple brandy, Bonal, Amaro Nonino, My Amaro, and bitters in a mixing glass. Add fresh ice and stir for 20 seconds. Strain into a chilled, single-serving carafe.",
+      "To smoke the Old Fashioned glass, light blowtorch and apply heat for about 10 seconds to the center of the coaster circle made with the drill. The barrel stave should begin to lightly smoke. Cap the smoke with the Old Fashioned glass and allow smoke to collect in the glass, about 30 seconds.",
+      "To serve the cocktail, flip over the smoked Old Fashioned glass and pour in the contents of the carafe."
+    ]
   }
 ]
