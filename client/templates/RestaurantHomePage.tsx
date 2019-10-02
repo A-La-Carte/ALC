@@ -1,27 +1,47 @@
 import * as React from 'react';
+import _ from 'underscore';
+
+import { RouteComponentProps } from 'react-router';
+import { RestaurantType } from './types';
 import PageContainer from './components/PageContainer'
 import RestaurantTopSection from './components/RestaurantTopSection'
 import RestaurantBottomSection from './components/RestaurantBottomSection'
+import restaurantData from '../../data/restaurants.json'
 
-interface Props {
+const restaurantLookup = _.indexBy(restaurantData, 'id');
+
+
+interface Props extends RouteComponentProps<any> {
 }
-interface State { }
+
+interface State {
+  restaurant: RestaurantType,
+}
 
 export default class RestaurantHomePage extends React.PureComponent<Props, State> {
+  constructor(props: Props) {
+    super(props);
+    const restaurant = restaurantLookup[props.match.params.restaurantId];
+
+    this.state = {
+      restaurant: restaurant,
+    }
+  }
+
   render() {
+    const { restaurant } = this.state;
     return (
       <PageContainer>
-
         <RestaurantTopSection
-          restaurant="Momofuku Kawi"
-          youtube_link="https://www.youtube.com/embed/XMWgzIGs3zw"
-          street="20 Hudson Yards, Fifth Floor"
-          city_state="New York, NY 10001"
-          phone_number="646.517.2699"
-          description="Kawi is a dope place and this is a dope description.Kawi is a dope place and this is a dope description.Kawi is a dope place and this is a dope description."
-          reservation_link="https://resy.com/cities/ny/kawi" />
+          restaurant={restaurant.name}
+          youtube_link={restaurant.yt_overview_video}
+          street={restaurant.address_street}
+          city_state={restaurant.address_city_state}
+          phone_number={restaurant.phone_number}
+          description={restaurant.description}
+          reservation_link={restaurant.reservation_link} />
         <RestaurantBottomSection
-          restaurant="Momofuku Kawi" />
+          restaurant={restaurant.name} />
       </PageContainer>
     );
   }

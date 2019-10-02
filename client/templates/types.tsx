@@ -12,4 +12,12 @@ export interface RecipeType {
 export interface RestaurantType {
   id: number,
   name: string,
+  yt_overview_video: string,
+  address_street: string,
+  address_city_state: string,
+  phone_number: string,
+  description: string,
+  reservation_link: string,
+  main_image: string,
 }
+

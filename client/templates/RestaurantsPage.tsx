@@ -15,6 +15,7 @@ export default class RestaurantsPage extends React.PureComponent<Props, State> {
         <div className="search-results-section row">
           {restaurantData.map(restaurant =>
             <SearchResult
+              key={restaurant.id}
               href={`/restaurants/${restaurant.id}`}
               restaurant={restaurant.address_city_state}
               title={restaurant.name}
@@ -26,4 +27,3 @@ export default class RestaurantsPage extends React.PureComponent<Props, State> {
     );
   }
 }
-
