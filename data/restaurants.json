@@ -1,14 +1,24 @@
 [
   {
-    "name": "Alinea",
-    "id": 1
+    "id": 1,
+    "name": "Nomad",
+    "yt_overview_video": "https://www.youtube.com/embed/XMWgzIGs3zw",
+    "address_street": "1593 Solano Ave",
+    "address_city_state": "Berkeley, CA",
+    "phone_number": "510.984.0738",
+    "description": "Nomad Tibetan Restaurant serves traditional Tibetan cuisine with a modern twist! We take great pride in using fresh and high quality ingredients to prepare our delicious recipes. Our restaurant décor is inspired by traditional Tibetan vista, art and artefacts. When you visit us, you will experience the famous Tibetan hospitality and the best of Tibetan cuisine at very reasonable prices.  We assure you that the Nomad Team will do our best so that you will have an unforgettable dining experience!",
+    "reservation_link": "https://resy.com/cities/ny/kawi",
+    "main_image": "https://infatuation.imgix.net/media/images/reviews/the-nomad/The%20Nomad%20Atrium.jpg?auto=format&h=890&w=1336"
   },
   {
+    "id": 2,
     "name": "Momofuku",
-    "id": 2
-  },
-  {
-    "name": "The Aviary",
-    "id": 3
+    "yt_overview_video": "https://www.youtube.com/embed/XMWgzIGs3zw",
+    "address_street": "1090 I St NW",
+    "address_city_state": "Washington, DC",
+    "phone_number": "202.602.1832",
+    "description": "David Chang offers his inventive takes on Asian fare at this airy, modern outpost next to Milk Bar.",
+    "reservation_link": "https://www.opentable.com/momofuku-ccdc",
+    "main_image": "https://infatuation.imgix.net/media/reviews/momofuku-noodle-bar/banners/Momofuku-Noodle-Bar_0.jpg?auto=format&h=840&w=1336"
   }
 ]
