@@ -20,5 +20,49 @@
     "description": "David Chang offers his inventive takes on Asian fare at this airy, modern outpost next to Milk Bar.",
     "reservation_link": "https://www.opentable.com/momofuku-ccdc",
     "main_image": "https://infatuation.imgix.net/media/reviews/momofuku-noodle-bar/banners/Momofuku-Noodle-Bar_0.jpg?auto=format&h=840&w=1336"
+  },
+  {
+    "id": 3,
+    "name": "Rich Table",
+    "yt_overview_video": "https://www.youtube.com/embed/XMWgzIGs3zw",
+    "address_street": "199 Gough St",
+    "address_city_state": "San Francisco, CA",
+    "phone_number": "415.355.9085",
+    "description": "Chefs Evan and Sarah Rich elevate the comfort food we know and love to utterly delectable heights. Doughnuts are made with dried porcini and raclette, cacio e pepe comes laced with sea urchin, chicken liver mousse is paired with black sesame angel cake, and we’re better off for it.",
+    "reservation_link": "https://resy.com/cities/sf/rich-table",
+    "main_image": "https://infatuation.imgix.net/media/images/reviews/rich-table/banners/1555008620.89.jpg?auto=format&h=840&w=1336"
+  },
+  {
+    "id": 4,
+    "name": "Burma Superstar",
+    "yt_overview_video": "https://www.youtube.com/embed/XMWgzIGs3zw",
+    "address_street": "309 Clement St",
+    "address_city_state": "San Francisco, CA",
+    "phone_number": "415.387.2147",
+    "description": "Famed for its tea-leaf salad, this bustling Burmese eatery is smallish & doesn't take reservations.",
+    "reservation_link": "https://www.yelp.com/waitlist/burma-superstar-san-francisco-2",
+    "main_image": "https://infatuation.imgix.net/media/reviews/burma-love/banners/Burma-Love_0.jpg?auto=format&h=840&w=1336"
+  },
+  {
+    "id": 5,
+    "name": "House of Prime Rib",
+    "yt_overview_video": "https://www.youtube.com/embed/XMWgzIGs3zw",
+    "address_street": "1906 Van Ness Ave",
+    "address_city_state": "San Francisco, CA",
+    "phone_number": "415.885.4605",
+    "description": "62 years of loyal customers can't be wrong. We are grateful to all of our customers, employees, and critics (...though we may not always agree!). The only way to find out the truth is with a visit. Oft imitated, never duplicated. Thank you in advance.",
+    "reservation_link": "https://www.opentable.com/house-of-prime-rib",
+    "main_image": "https://infatuation.imgix.net/media/images/reviews/house-of-prime-rib/banners/1541092157.72.jpg?auto=format&h=840&w=1336"
+  },
+  {
+    "id": 6,
+    "name": "Roister",
+    "yt_overview_video": "https://www.youtube.com/embed/XMWgzIGs3zw",
+    "address_street": "951 W Fulton Market",
+    "address_city_state": "Chicago, IL",
+    "phone_number": "312.789.4896",
+    "description": "Roister is the Alinea Group's convivial & casual restaurant. At Roister we've built our kitchens to be the restaurant and surround our guests. And our chefs are an integral part of service. Roister's food is rooted in primal cooking techniques combined with modern technology and an open hearth. The results are an award winning combination of understated platings and vibrant flavors.",
+    "reservation_link": "https://www.exploretock.com/roister/",
+    "main_image": "https://media1.fdncms.com/chicago/imager/u/magnum/22142377/fnd-review_roister-dining-room-17-1200.jpg"
   }
 ]
