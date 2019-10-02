@@ -17,7 +17,7 @@ export default class Navbar extends React.PureComponent<Props, State> {
         <div className="alc-navbar-left">
           <div className="alc-navbar-main">
             <div className="alc-navbar-main-logo"></div>
-            <a href="/">A La Cook</a>
+            <a href="/">Krave</a>
           </div>
         </div>
         <div className="alc-navbar-right">
